@@ -1,8 +1,6 @@
 set nu
 set autochdir
 
-:cd ~
-
 execute pathogen#infect()
 
 syntax on
