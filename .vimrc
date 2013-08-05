@@ -1,6 +1,8 @@
 "F2 = 切换NERDTree
 "F3 = 切换TagList
 "F4 = 切换WinManager
+"Ctrl+F12 = 生成C++ tags文件
+
 
 set number
 set autochdir
@@ -34,5 +36,5 @@ endfunction
 nmap <F4> :WMToggle<cr>:q<cr>
 nmap <C-F4> :WMToggle<cr>
 
-"直接编辑.vimrc
-nnoremap :ee :e ~/.vimrc
+map <C-F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
+
