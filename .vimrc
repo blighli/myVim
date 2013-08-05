@@ -5,6 +5,7 @@
 set number
 set autochdir
 set encoding=utf-8
+set fileencodings=utf-8,chinese,latin-1
 language messages zh_CN.utf-8
 
 execute pathogen#infect()
@@ -33,3 +34,5 @@ endfunction
 nmap <F4> :WMToggle<cr>:q<cr>
 nmap <C-F4> :WMToggle<cr>
 
+"ֱ�ӱ༭.vimrc
+nnoremap :ee :e ~/.vimrc
