@@ -3,6 +3,10 @@
 "F4 = 切换WinManager
 "Ctrl+F12 = 生成C++ tags文件
 
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab
 
 set number
 set autochdir
@@ -23,6 +27,7 @@ inoremap ( ()<Esc>i
 inoremap [ []<Esc>i
 inoremap ' ''<Esc>i
 inoremap " ""<Esc>i
+inoremap { {}<Esc>i
 
 "设置WindowManager
 let g:NERDTree_title='NERD Tree'
