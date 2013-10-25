@@ -27,7 +27,7 @@ inoremap ( ()<Esc>i
 inoremap [ []<Esc>i
 inoremap ' ''<Esc>i
 inoremap " ""<Esc>i
-inoremap { {}<Esc>i
+inoremap { {}<Esc>i<cr><cr><up><tab>
 
 "…Ë÷√WindowManager
 let g:NERDTree_title='NERD Tree'
